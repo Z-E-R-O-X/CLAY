@@ -1,0 +1,406 @@
+/* Importar la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --Absolute-Colors-W: #ffffff;
+    --Absolute-Colors-B: #000;
+    --Red-Shades-Y: #FFFF00; 
+    --Black-Shades-B: #052A5D; 
+    --Grey-Shades-G: #BFBFBF; 
+    
+
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color:  var(--Black-Shades-B);
+}
+
+/* ---------- Estilo para el Havbar ----------*/
+.header {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 12vh;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    background-color: transparent;
+    z-index: 10000;
+}
+
+.header .logo-container {
+    width: 300px;
+    height: 100%;
+}
+
+.header .logo-container .logo-text {
+    position: absolute;
+    left: 90px;
+    top: 35px;
+    text-align: center;
+    color: var(--Grey-Shades-G);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.header .logo-container img {
+    width: 95px;
+    height: 95px;
+}
+
+.header .menu-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 5px;
+    background: var(--Black-Shades-B);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px var(--Grey-Shades-G) solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    display: flex;
+}
+
+.header .menu-container .menu-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    background: var(--Black-Shades-B);
+    border-radius: 8px;
+    border: 1px var(--Black-Shades-B);
+    color:  var(--Grey-Shades-G);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+.header .menu-container .button:hover {
+    background: var(--Absolute-Colors-B);
+    color: var(--Absolute-Colors-W);
+    border-radius: 8px;
+    border: 1px var(--Absolute-Colors-B) solid;
+}
+
+.header .login-container {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    display: flex;
+    position: relative;
+    right: 40px;
+}
+
+.header .login-container .login-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: var(--Black-Shades-B);
+    border-radius: 8px;
+    border: 1px var(--Absolute-Colors-W) solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    color: var(--Grey-Shades-G);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+.header .login-container .login-button:hover {
+    background: var(--Absolute-Colors-B);
+    color: var(--Absolute-Colors-W);
+}
+
+/* ---------- Estilos del body ----------*/
+
+.container-inicio {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+/* ---------- Estilos del container-inicio ----------*/
+
+.container-inicio .container-inicio-one {
+    align-self: stretch;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+
+.container-inicio .container-inicio-one .image-container {
+    align-self: stretch;
+    height: 200px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.container-inicio .container-inicio-one .image-container img {
+    width: 151px;
+    height: 200px;
+    flex: 1 1 0;
+    align-self: stretch;
+    border-radius: 12px;
+}
+
+.container-inicio .container-inicio-one .background-image {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: -80px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    border-radius: 12px;
+}
+
+.container-inicio .container-inicio-one .gradient-overlay {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0) 100%);
+}
+
+.container-inicio .container-inicio-one .gradient-background {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: -17px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 100%);
+}
+
+.container-inicio .container-inicio-one .container-play {
+    width: 300px;
+    height: 300px;
+    left: 570px;
+    top: 199px;
+    position: absolute;
+}
+
+/* ---------- Estilos del container-c1 ----------*/
+
+.container-inicio .container-c1 {
+    position: relative;
+    top: -70px;
+    z-index: 1000;
+    align-self: stretch;
+    height: 253px;
+    padding-left: 150px;
+    padding-right: 150px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+}
+
+.container-inicio .container-c1 .content-c1 {
+    align-self: stretch;
+    height: 161px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+
+.container-inicio .container-c1 .content-c1 .title {
+    background-color: transparent;
+    align-self: stretch;
+    text-align: center;
+    color: var(--Absolute-Colors-W);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    word-wrap: break-word;
+}
+
+.container-inicio .container-c1 .content-c1 .description {
+    background-color: #052A5D;
+    align-self: stretch;
+    width: 100%;
+    height: 79px;
+    text-align: center;
+    color: #FCFCFD;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+.container-inicio .container-c1 .button {
+    position: relative;
+    top: -30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: var(--Red-Shades-Y);
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    display: inline-flex;
+}
+
+.container-inicio .container-c1 .icon {
+    position: relative;
+    font-size: 20px;
+}
+
+
+.container-inicio .container-c1 .button-text {
+    color: var(--Absolute-Colors-B);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+/* ---------- Estilos del container-c2 ----------*/
+
+.container-inicio .container-c2 {
+    width: 1279px;
+    height: 418px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+    display: inline-flex;
+}
+
+.container-inicio .container-c2 .content-c2-c1 {
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+    display: inline-flex;
+}
+
+.container-inicio .container-c2 .content-c2-c1 .content-c2-c1-c1 {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.container-inicio .container-c2 .content-c2-c1 .content-c2-c1-c1 .titulo {
+    align-self: stretch;
+    color: var(--Absolute-Colors-W);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    word-wrap: break-word;
+}
+
+.container-inicio .container-c2 .content-c2-c1 .content-c2-c1-c1 .parrafo {
+    align-self: stretch;
+    color: var(--Absolute-Colors-W);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.container-inicio .container-c2 .content-c2-c2 {
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    display: inline-flex;
+}
+
+.container-inicio .container-c2 .content-c2-c2 .categorias {
+    flex: 1 1 0;
+    padding: 10px;
+    background: var(--Absolute-Colors-B);
+    border-radius: 10px;
+    border: 1px #262626 solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.container-inicio .container-c2 .content-c2-c2 .categorias .d1 {
+    align-self: stretch;
+    height: 210px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    display: flex;
+}
+
+.container-inicio .container-c2 .content-c2-c2 .categorias .d1 .container-image {
+    align-self: center;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    display: inline-flex;
+}
+
+.container-inicio .container-c2 .content-c2-c2 .categorias .d1 .container-image .image {
+    width: 102px;
+    height: 93px;
+}
+
+.container-inicio .container-c2 .content-c2-c2 .categorias .d2 {
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+.container-inicio .container-c2 .content-c2-c2 .categorias .d2 .titulo {
+    flex: 1 1 0;
+    color: var(--Absolute-Colors-W);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.container-inicio .container-c2 .content-c2-c2 .categorias .d2 .icon {
+    width: 24px;
+    height: 24px;
+    padding-left: 4.50px;
+    padding-right: 4.50px;
+    padding-top: 5.25px;
+    padding-bottom: 5.25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
