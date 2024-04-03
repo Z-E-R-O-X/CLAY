@@ -39,12 +39,11 @@
 
                     <div class="container_bus_lon d-flex justify-content-between">
                         <form class="container_buscador input-group flex-nowrap" role="search">
-                            <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass icon icon1" style="color: #FFFFFF;"></i></span>
-                            <input class="form-control" type="search" placeholder="Buscar" aria-label="Buscar"
-                                aria-describedby="addon-wrapping">
-                            <button class="btn" type="submit">Buscar</button>
+                            <input id="inputBuscar" class="form-control" type="search" placeholder="Buscar"
+                                aria-label="Buscar" aria-describedby="addon-wrapping" style="display: none;">
+                            <span id="iconoBuscar" class="input-group-text"><i
+                                    class="fa-solid fa-magnifying-glass icon icon1" style="color: #FFFFFF;"></i></span>
                         </form>
-
                         <div class="login-container m2">
                             <button class="login-button" onclick="button_login('<?= SERVERURL ?>login/')">Login</button>
                         </div>
