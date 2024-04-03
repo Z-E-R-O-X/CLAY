@@ -23,7 +23,7 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarSupportedContent">
+            <div class="offcanvas offcanvas-end ocultar" tabindex="-1" id="navbarSupportedContent">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title">Menu</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -31,10 +31,10 @@
                 <div class="offcanvas-body">
                     <div class="navbar-nav me-auto mb-2 mb-lg-0 container_menu d-flex justify-content-center"
                         id="menu-container">
-                        <button class="iten_menu dk">Inicio</button>
-                        <button class="iten_menu dk">Cursos y Diplomados</button>
-                        <button class="iten_menu dk">Lives</button>
-                        <button class="iten_menu dk">Mi lista</button>
+                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')" >Inicio</button>
+                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Cursos y Diplomados</button>
+                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Lives</button>
+                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Mi lista</button>
                     </div>
 
                     <div class="container_bus_lon d-flex justify-content-between">

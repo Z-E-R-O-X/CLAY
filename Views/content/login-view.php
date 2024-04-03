@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="<?= SERVERURL ?>/Views/css/styles.css">
-</head>
+<style>
+  .ocultar{
+    display: none;
+  }
+</style>
 <body>
 <div class="center-container">
   <div class="form-container">
