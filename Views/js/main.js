@@ -1,24 +1,16 @@
 //------------------------------------------------------------------------------------//
 function manejarInputBuscar() {
-    // Obtener referencias a los elementos del DOM
     var inputBuscar = document.getElementById('inputBuscar');
     var iconoBuscar = document.getElementById('iconoBuscar');
 
-    // Agregar controlador de eventos de clic al ícono de búsqueda
     iconoBuscar.addEventListener('click', function (event) {
-        // Mostrar el input
         inputBuscar.style.display = 'block';
-        // Habilitar el input para escribir
         inputBuscar.disabled = false;
-        // Poner el foco en el input
         inputBuscar.focus();
-        // Detener la propagación del evento para evitar que se propague al document
         event.stopPropagation();
     });
 
-    // Agregar controlador de eventos de clic al document
     document.addEventListener('click', function (event) {
-        // Ocultar el input si se hace clic en cualquier parte del documento excepto en el input
         if (event.target !== inputBuscar && event.target !== iconoBuscar) {
             inputBuscar.style.display = 'none';
         }
