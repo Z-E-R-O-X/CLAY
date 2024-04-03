@@ -3,7 +3,7 @@
 class VistaModelo{
 
     protected static function obtener_vista_modelo($vista){
-        $listaPaginas = ["login","lives"];
+        $listaPaginas = ["login","lives","registro"];
         if(in_array($vista, $listaPaginas)){
 
             if(is_file("./Views/content/".$vista."-view.php")){
