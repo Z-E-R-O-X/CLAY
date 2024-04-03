@@ -1,0 +1,142 @@
+/* Importar la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --White: #ffffff;
+    --Black: #000;
+    --Goldenrod: #FFFF00;
+    --Midnight-Blue: #052A5D;
+    --Slate-Gray: #BFBFBF;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: blueviolet !important;
+}
+
+.header{
+    background-color: transparent;
+}
+.container_header{
+    padding-top: 15px;
+}
+
+.container_menu {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: var(--Midnight-Blue);
+    border-radius: 10px;
+    border: 3px var(--Slate-Gray) solid;
+    gap: 16px;
+    margin: 0 auto; 
+}
+
+
+.container_menu .iten_menu {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    align-items: center; 
+    gap: 10px;
+    display: flex;
+    background: var(--Midnight-Blue);
+    border-radius: 8px;
+    border: 1px var(--Midnight-Blue);
+    color: var(--Slate-Gray);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+.container_menu .dk:hover{
+    background: var(--Black);
+    color: var(--White);
+    border-radius: 8px;
+    border: 1px var(--Black) solid;
+}
+
+.container_bus_lon{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.container_buscador {
+    display: flex;
+    height: 60px;
+    padding-top: 15px;
+}
+.container_buscador span {
+    background-color: var(--Midnight-Blue);
+    color: var(--White);
+    border-radius: 8px;
+    border: 3px var(--Slate-Gray) solid;
+}
+.container_buscador input {
+    background-color: var(--White);
+    color: var(--Black);
+    border-radius: 8px;
+    border: 3px var(--Slate-Gray) solid;
+}
+.container_buscador input:focus  {
+    background-color: var(--White);
+    color: var(--Black);
+    box-shadow: none; 
+    border-radius: 8px;
+    border: 1px var(--Slate-Gray) solid;
+}
+.container_buscador button{
+    background-color: var(--Midnight-Blue);
+    color: var(--White);
+    border-radius: 8px;
+    border: 3px var(--Slate-Gray) solid;
+}
+.container_buscador button:hover{
+    background-color: var(--Black);
+    color: var(--White);
+    border-radius: 8px;
+    border: 3px var(--Slate-Gray) solid;
+}
+.container_buscador button:active {
+    background-color:var(--Black) !important;
+    color: var(--White)!important;
+    border-radius: 8px !important;
+    border: 3px var(--Slate-Gray) solid !important;
+}
+.login-container{
+    padding-top: 13px;
+}
+.login-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: var(--Midnight-Blue);
+    border-radius: 8px;
+    border: 1px var(--White) solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    color: var(--Slate-Gray);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+.login-button:hover {
+    background: var(--Black);
+    color: var(--White);
+}
