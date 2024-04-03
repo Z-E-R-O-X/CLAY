@@ -140,3 +140,31 @@ body {
     background: var(--Black);
     color: var(--White);
 }
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .center-container .form-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(240, 240, 240, 0.8); /* Fondo con transparencia */
+  }
+  .center-container .mt-3 {
+      text-align: center; /* Centrar el texto dentro del párrafo */
+  }
+  .center-container .btn-primary {
+      display: block;
+      margin: 0 auto; /* Centrar el botón horizontalmente */
+  }
+  .center-container .btn-secundario {
+      display: block;
+      margin: 0 auto; /* Centrar el botón horizontalmente */
+      background-color: #ff6600; /* Cambia el color del botón aquí */
+      color: #fff;
+  }
