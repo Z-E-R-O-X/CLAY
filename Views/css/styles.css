@@ -96,24 +96,6 @@ body {
     border-radius: 8px;
     border: 1px var(--Slate-Gray) solid;
 }
-.container_buscador button{
-    background-color: var(--Midnight-Blue);
-    color: var(--White);
-    border-radius: 8px;
-    border: 3px var(--Slate-Gray) solid;
-}
-.container_buscador button:hover{
-    background-color: var(--Black);
-    color: var(--White);
-    border-radius: 8px;
-    border: 3px var(--Slate-Gray) solid;
-}
-.container_buscador button:active {
-    background-color:var(--Black) !important;
-    color: var(--White)!important;
-    border-radius: 8px !important;
-    border: 3px var(--Slate-Gray) solid !important;
-}
 .login-container{
     padding-top: 13px;
 }
@@ -141,6 +123,56 @@ body {
     color: var(--White);
 }
 
+.container-inicio .container-inicio-one {
+    align-self: stretch;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+.container-inicio .container-inicio-one .image-container {
+    align-self: stretch;
+    height: 200px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+.container-inicio .container-inicio-one .image-container img {
+    width: 20px;
+    height: 200px;
+    flex: 1 1 0;
+    align-self: stretch;
+    border-radius: 12px;
+}
+.container-inicio .container-inicio-one .background-image {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: -80px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    border-radius: 12px;
+}
+.container-inicio .container-inicio-one .gradient-overlay {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0) 100%);
+}
+.container-inicio .container-inicio-one .gradient-background {
+    width: 100%;
+    height: 643px;
+    left: 0px;
+    top: -17px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 100%);
+}
 .center-container {
     display: flex;
     justify-content: center;
