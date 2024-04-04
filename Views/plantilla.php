@@ -14,7 +14,7 @@
 
     <nav class="navbar navbar-expand-lg fixed-top header">
         <div class="container-fluid container_header">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?= SERVERURL ?>">
                 <img src="<?= SERVERURL ?>/Views/assets/img/logo2.png" alt="Logo" width="80" height="74"
                     class="d-inline-block align-text-top">
             </a>
