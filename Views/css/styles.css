@@ -96,6 +96,12 @@ body {
     border-radius: 8px;
     border: 1px var(--Slate-Gray) solid;
 }
+.container_buscador span{
+    cursor: pointer;
+}
+.container_buscador span:hover{
+    background-color: var(--Black);
+}
 .login-container{
     padding-top: 13px;
 }
