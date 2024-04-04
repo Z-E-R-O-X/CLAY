@@ -1,3 +1,8 @@
+function button_login(url) {
+    window.location.href = url;
+}
+
+
 //------------------------------------------------------------------------------------//
 function manejarInputBuscar() {
     var inputBuscar = document.getElementById('inputBuscar');
@@ -41,7 +46,6 @@ var imagenes = [
     "Views/assets/img/curso probabilidad.jpeg",
     "Views/assets/img/curso python.jpeg",
     "Views/assets/img/curso sql server.jpeg",
-    "Views/assets/img/curso kotlin.jpeg",
 ];
 function obtenerImagenAleatoria() {
     var indiceAleatorio = Math.floor(Math.random() * imagenes.length);
