@@ -6,11 +6,9 @@
         </div>
         <div class="image-container" id="imagen-container3">
         </div>
-        <img class="background-image" src="Views/assets/img/fondo.jpg" />
         <div class="gradient-overlay"></div>
         <div class="gradient-background"></div>
-    </div>
-    <div class="container-play">
+        <div class="container-play">
             <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_b_288_4517)">
                     <path
@@ -63,9 +61,36 @@
                 </defs>
             </svg>
         </div>
+    </div>
+    <div class="container-c1">
+        <div class="content-c1">
+            <<div class="con-tex my-custom-container">
+                <div class="text-break text-center fw-bold text-white fs-1 titulo">
+                    La Mejor Experiencia Académica Online
+                </div>
+        </div>
+        <div class="con-des">
+            <div class="text-break text-center text-white description">
+                AcademiaStream es la mejor experiencia académica en línea para acceder a tus cursos
+                y materiales educativos favoritos, en cualquier momento y lugar. Con AcademiaStream, podrás
+                disfrutar de
+                una amplia variedad de contenido, incluyendo conferencias en vivo, clases magistrales, tutoriales, y
+                mucho más. También puedes crear tus propias listas de reproducción, para acceder fácilmente al
+                contenido
+                que deseas revisar.
+            </div>
+        </div>
+        <div class="position-relative m-4">
+            <button
+                class="boton position-absolute top-0 start-50 translate-middle  fw-bold type="
+                button">
+                <span><i class="fa-solid fa-play icon" style="color: #000000;"></i></span>
+                <span style="margin-left: 5px;">Comienza a Ver Ahora</span>
+            </button>
+        </div>
+    </div>
 </div>
 
 
 
 <script src="<?= SERVERURL ?>/Views/js/main.js"></script>
-
