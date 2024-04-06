@@ -22,10 +22,11 @@ body {
     background-color: var(--Midnight-Blue) !important;
 }
 
-.header{
+.header {
     background-color: transparent;
 }
-.container_header{
+
+.container_header {
     padding-top: 15px;
 }
 
@@ -36,7 +37,7 @@ body {
     border-radius: 10px;
     border: 3px var(--Slate-Gray) solid;
     gap: 16px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 
@@ -45,7 +46,7 @@ body {
     padding-right: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
-    align-items: center; 
+    align-items: center;
     gap: 10px;
     display: flex;
     background: var(--Midnight-Blue);
@@ -59,17 +60,17 @@ body {
     word-wrap: break-word;
 }
 
-.container_menu .dk:hover{
+.container_menu .dk:hover {
     background: var(--Black);
     color: var(--White);
     border-radius: 8px;
     border: 1px var(--Black) solid;
 }
 
-.container_bus_lon{
+.container_bus_lon {
     display: flex;
     justify-content: space-between;
-    gap: 20px; 
+    gap: 20px;
 }
 
 .container_buscador {
@@ -77,34 +78,41 @@ body {
     height: 60px;
     padding-top: 15px;
 }
+
 .container_buscador span {
     background-color: var(--Midnight-Blue);
     color: var(--White);
     border-radius: 8px;
     border: 3px var(--Slate-Gray) solid;
 }
+
 .container_buscador input {
     background-color: var(--White);
     color: var(--Black);
     border-radius: 8px;
     border: 3px var(--Slate-Gray) solid;
 }
-.container_buscador input:focus  {
+
+.container_buscador input:focus {
     background-color: var(--White);
     color: var(--Black);
-    box-shadow: none; 
+    box-shadow: none;
     border-radius: 8px;
     border: 1px var(--Slate-Gray) solid;
 }
-.container_buscador span{
+
+.container_buscador span {
     cursor: pointer;
 }
-.container_buscador span:hover{
+
+.container_buscador span:hover {
     background-color: var(--Black);
 }
-.login-container{
+
+.login-container {
     padding-top: 13px;
 }
+
 .login-button {
     padding-left: 20px;
     padding-right: 20px;
@@ -139,6 +147,7 @@ body {
     gap: 10px;
     display: flex;
 }
+
 .container-inicio .container-inicio-one .image-container {
     align-self: stretch;
     height: 200px;
@@ -147,6 +156,7 @@ body {
     gap: 10px;
     display: inline-flex;
 }
+
 .container-inicio .container-inicio-one .image-container img {
     width: 20px;
     height: 200px;
@@ -154,6 +164,7 @@ body {
     align-self: stretch;
     border-radius: 12px;
 }
+
 .container-inicio .container-inicio-one .background-image {
     width: 100%;
     height: 100%;
@@ -163,6 +174,7 @@ body {
     mix-blend-mode: overlay;
     border-radius: 12px;
 }
+
 .container-inicio .container-inicio-one .gradient-overlay {
     width: 100%;
     height: 100%;
@@ -171,6 +183,7 @@ body {
     position: absolute;
     background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0) 100%);
 }
+
 .container-inicio .container-inicio-one .gradient-background {
     width: 100%;
     height: 643px;
@@ -179,30 +192,46 @@ body {
     position: absolute;
     background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 100%);
 }
+
 .center-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+}
 
-  .center-container .form-container {
+.center-container .form-container {
     max-width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: rgba(240, 240, 240, 0.8); /* Fondo con transparencia */
-  }
-  .center-container .mt-3 {
-      text-align: center; /* Centrar el texto dentro del párrafo */
-  }
-  .center-container .btn-primary {
-      display: block;
-      margin: 0 auto; /* Centrar el botón horizontalmente */
-  }
-  .center-container .btn-secundario {
-      display: block;
-      margin: 0 auto; /* Centrar el botón horizontalmente */
-      background-color: #ff6600; /* Cambia el color del botón aquí */
-      color: #fff;
-  }
+    background-color: rgba(240, 240, 240, 0.8);
+    /* Fondo con transparencia */
+}
+
+.center-container .mt-3 {
+    text-align: center;
+    /* Centrar el texto dentro del párrafo */
+}
+
+.center-container .btn-primary {
+    display: block;
+    margin: 0 auto;
+    /* Centrar el botón horizontalmente */
+}
+
+.center-container .btn-secundario {
+    display: block;
+    margin: 0 auto;
+    /* Centrar el botón horizontalmente */
+    background-color: #ff6600;
+    /* Cambia el color del botón aquí */
+    color: #fff;
+}
+
+.container-inicio .container-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
