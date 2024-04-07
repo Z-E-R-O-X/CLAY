@@ -92,7 +92,7 @@
                 reflexionar o un
                 recurso educativo para ampliar tus conocimientos</div>
         </div>
-        <div class="content-c2-c2">
+        <div class="content-c2">
             <div class="row g-3 text-center propa">
                 <div class="col">
                     <div class="categorias">
@@ -179,8 +179,7 @@
                         <div class="d1">
                             <div class="container-image">
                                 <img class="image" src="Views/assets/img/curso Peligros biologicos.jpeg" />
-                                <img class="image"
-                                    src="Views/assets/img/curso perdida de audición.jpeg" />
+                                <img class="image" src="Views/assets/img/curso perdida de audición.jpeg" />
                             </div>
                             <div class="container-image">
                                 <img class="image" src="Views/assets/img/curso estres.jpeg" />
@@ -194,6 +193,136 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-c3">
+        <div class="content-c1">
+            <div class="text-break text-white fs-3 fw-bold titulo">Te ofrecemos una experiencia de aprendizaje en
+                múltiples dispositivos.
+            </div>
+            <div class="text-break text-white parrafo">AUNAR Academy Online ofrece una experiencia de aprendizaje en
+                línea excepcional, donde podrás acceder a una amplia variedad de cursos y materiales educativos desde
+                cualquier lugar y en cualquier momento. Nuestra plataforma está diseñada para ser compatible con una
+                amplia gama de dispositivos, lo que te permite disfrutar de tus cursos favoritos con facilidad y
+                comodidad.</div>
+        </div>
+        <div class="content-c2">
+            <div class="row dispositivos">
+                <div class="col">
+                    <div class="targeta">
+                        <div class="parte1">
+                            <div class="container-icon">
+                                <div class="icono">
+                                    <i class="fa-solid fa-mobile fa-2x" style="color: #FFFF00;"></i>
+                                </div>
+                            </div>
+                            <div class="titulo">Smartphones</div>
+                        </div>
+                        <div class="parrafo">La aplicación de AUNAR Academy Online está optimizada para smartphones
+                            tanto
+                            Android como iOS. Descarga nuestra app desde Google Play Store o Apple App Store.</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="targeta">
+                        <div class="parte1">
+                            <div class="container-icon">
+                                <div class="icono">
+                                    <i class="fa-solid fa-tablet fa-2x" style="color: #FFFF00;"></i>
+                                </div>
+                            </div>
+                            <div class="titulo">Tablet</div>
+                        </div>
+                        <div class="parrafo">AUNAR Academy Online está optimizada para smartphones Android e iOS.
+                            Descarga
+                            nuestra aplicación desde Google Play Store o Apple App Store.</div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="targeta">
+                        <div class="parte1">
+                            <div class="container-icon">
+                                <div class="icono">
+                                    <i class="fa-sharp fa-solid fa-tv fa-2x" style="color: #FFFF00;"></i>
+                                </div>
+                            </div>
+                            <div class="titulo">Smart TV</div>
+                        </div>
+                        <div class="parrafo">AUNAR Academy Online está optimizada para su uso en Smart TVs. Descarga
+                            nuestra
+                            aplicación desde la tienda de aplicaciones de tu Smart TV para disfrutar de una experiencia
+                            de
+                            aprendizaje de alta calidad en la pantalla grande de tu hogar.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row dispositivos">
+                <div class="col">
+                    <div class="targeta">
+                        <div class="parte1">
+                            <div class="container-icon">
+                                <div class="icono">
+                                    <i class="fa-solid fa-laptop fa-2x" style="color: #FFFF00;"></i>
+                                </div>
+                            </div>
+                            <div class="titulo">Laptops</div>
+                        </div>
+                        <div class="parrafo">La aplicación de AUNAR Academy Online está optimizada para smartphones
+                            tanto
+                            Android como iOS. Descarga nuestra app desde Google Play Store o Apple App Store.</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="targeta">
+                        <div class="parte1">
+                            <div class="container-icon">
+                                <div class="icono">
+                                    <i class="fa-solid fa-gamepad fa-2x" style="color: #FFFF00;"></i>
+                                </div>
+                            </div>
+                            <div class="titulo">Gaming Consoles</div>
+                        </div>
+                        <div class="parrafo">La aplicación de AUNAR Academy Online está optimizada para smartphones
+                            tanto
+                            Android como iOS. Descarga nuestra app desde Google Play Store o Apple App Store.</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="targeta">
+                        <div class="parte1">
+                            <div class="container-icon">
+                                <div class="icono">
+                                    <i class="fa-solid fa-headset fa-2x" style="color: #FFFF00;"></i>
+                                </div>
+                            </div>
+                            <div class="titulo">VR Headsets </div>
+                        </div>
+                        <div class="parrafo">La aplicación de AUNAR Academy Online está optimizada para smartphones
+                            tanto
+                            Android como iOS. Descarga nuestra app desde Google Play Store o Apple App Store.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-c4">
+        <div class="content-c1">
+            <div class="text-break text-white fs-3 fw-bold titulo">Preguntas Frecuentes:
+            </div>
+            <div class="text-break text-white parrafo">¿Tienes preguntas? ¡Nosotros tenemos respuestas! Consulta nuestra
+                sección de Preguntas Frecuentes para encontrar respuestas a las preguntas más comunes sobre AUNAR
+                Academy Online.</div>
+        </div>
+        <div class="content-c2">
+            <div class="row">
+                <div class="col-sm-9">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="¿Tienes preguntas?">
+                </div>
+                <div class="col-sm-3 text-center">
+                <button type="button" class="boton fw-bold">Realiza una pregunta</button>
                 </div>
             </div>
         </div>

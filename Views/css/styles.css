@@ -281,17 +281,20 @@ body {
 .container-inicio .container-c2 .content-c1{
     margin: 30px;
 }
+.container-inicio .container-c2 .content-c1 .parrafo{
+    padding-top: 10px;
+}
 
-.container-inicio .container-c2 .content-c2-c2 {
+.container-inicio .container-c2 .content-c2 {
     width: 100%;
     padding: 30px;
 }
 
-.container-inicio .container-c2 .content-c2-c2 .propa {
+.container-inicio .container-c2 .content-c2 .propa {
     gap: -20px;
 }
 
-.container-inicio .container-c2 .content-c2-c2 .categorias {
+.container-inicio .container-c2 .content-c2 .categorias {
     flex: 1 1 0;
     padding: 10px;
     background: var(--Black);
@@ -301,7 +304,7 @@ body {
     display: inline-flex;
 }
 
-.container-inicio .container-c2 .content-c2-c2 .categorias .d1 {
+.container-inicio .container-c2 .content-c2 .categorias .d1 {
     align-self: stretch;
     height: 210px;
     flex-direction: column;
@@ -311,7 +314,7 @@ body {
     display: flex;
 }
 
-.container-inicio .container-c2 .content-c2-c2 .categorias .d1 .container-image {
+.container-inicio .container-c2 .content-c2 .categorias .d1 .container-image {
     align-self: center;
     flex: 1 1 0;
     justify-content: center;
@@ -320,19 +323,19 @@ body {
     display: inline-flex;
 }
 
-.container-inicio .container-c2 .content-c2-c2 .categorias .d1 .container-image .image {
+.container-inicio .container-c2 .content-c2 .categorias .d1 .container-image .image {
     width: 102px;
     height: 93px;
 }
 
-.container-inicio .container-c2 .content-c2-c2 .categorias .d2 {
+.container-inicio .container-c2 .content-c2 .categorias .d2 {
     align-self: stretch;
     justify-content: flex-start;
     align-items: center;
     display: inline-flex;
 }
 
-.container-inicio .container-c2 .content-c2-c2 .categorias .d2 .titulo {
+.container-inicio .container-c2 .content-c2 .categorias .d2 .titulo {
     flex: 1 1 0;
     color: var(--White);
     font-size: 16px;
@@ -341,7 +344,7 @@ body {
     word-wrap: break-word;
 }
 
-.container-inicio .container-c2 .content-c2-c2 .categorias .d2 .icon {
+.container-inicio .container-c2 .content-c2 .categorias .d2 .icon {
     width: 24px;
     height: 24px;
     padding-left: 4.50px;
@@ -353,8 +356,116 @@ body {
     display: flex;
 }
 
+.container-inicio .container-c3 .content-c1{
+    margin: 30px;
+}
+.container-inicio .container-c3 .content-c1 .parrafo{
+    padding-top: 10px;
+}
 
+.container-inicio .container-c3 .content-c2 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    display: inline-flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
+.container-inicio .container-c3 .content-c2 .dispositivos {
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    display: inline-flex;
+}
+
+.container-inicio .container-c3 .content-c2 .dispositivos .targeta {
+    flex: 1 1 0;
+    padding: 40px;
+    background: linear-gradient(0deg, #0F0F0F 0%, #0F0F0F 100%), linear-gradient(221deg, rgba(255, 255, 0, 0.50) 0%, rgba(183.20, 229, 0, 0) 81%);
+    border-radius: 10px;
+    border: 1px solid #262626;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+}
+
+.container-inicio .container-c3 .content-c2 .dispositivos .targeta .parte1 {
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+}
+
+.container-inicio .container-c3 .content-c2 .dispositivos .targeta .parte1 .container-icon {
+    padding: 12px;
+    background: var(--Midnight-Blue);
+    border-radius: 10px;
+    border: 1px solid #1F1F1F;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+
+.container-inicio .container-c3 .content-c2 .dispositivos .targeta .parte1 .container-icon .icono {
+    width: 30px;
+    height: 30px;
+    padding-top: 1.20px;
+    padding-bottom: 1.80px;
+    padding-left: 7.80px;
+    padding-right: 7.47px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container-inicio .container-c3 .content-c2 .dispositivos .targeta .titulo {
+    flex: 1 1 0;
+    color: var(--White);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+.container-inicio .container-c3 .content-c2 .dispositivos .targeta .parrafo {
+    align-self: stretch;
+    color: var(--White);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.container-inicio .container-c4 {
+    margin: 30px;
+}
+.container-inicio .container-c4 .content-c1 .parrafo{
+    padding-top: 10px;
+}
+.container-inicio .container-c4 .content-c2{
+    padding-top: 40px;
+}
+.container-inicio .container-c4 .content-c2 input{
+    margin-bottom: 20px;
+}
+.container-inicio .container-c4 .content-c2 .boton{
+    position: relative;
+    background-color: var(--Goldenrod);
+    color: var(--Black);
+    border-radius: 10px;
+    border: 1px var(--Black) solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 
 
@@ -375,5 +486,6 @@ body {
     .container-inicio .container-c1 .content-c1 .con-des .description{
         font-size: 0.7rem; 
     }
+    
 }
   
