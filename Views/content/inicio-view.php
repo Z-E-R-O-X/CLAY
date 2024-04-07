@@ -64,29 +64,138 @@
     </div>
     <div class="container-c1">
         <div class="content-c1">
-            <<div class="con-tex my-custom-container">
+            <div class="con-tex my-custom-container">
                 <div class="text-break text-center fw-bold text-white fs-1 titulo">
                     La Mejor Experiencia Académica Online
                 </div>
-        </div>
-        <div class="con-des">
-            <div class="text-break text-center text-white description">
-                AcademiaStream es la mejor experiencia académica en línea para acceder a tus cursos
-                y materiales educativos favoritos, en cualquier momento y lugar. Con AcademiaStream, podrás
-                disfrutar de
-                una amplia variedad de contenido, incluyendo conferencias en vivo, clases magistrales, tutoriales, y
-                mucho más. También puedes crear tus propias listas de reproducción, para acceder fácilmente al
-                contenido
-                que deseas revisar.
             </div>
-        </div>
-        <div class="position-relative m-4">
-            <button
-                class="boton position-absolute top-0 start-50 translate-middle  fw-bold type="
-                button">
+            <div class="con-des">
+                <div class="text-break text-center text-white description">
+                    AcademiaStream es la mejor experiencia académica en línea para acceder a tus cursos y materiales
+                    educativos favoritos, en cualquier momento y lugar. Con AcademiaStream, podrás disfrutar de una
+                    amplia variedad de contenido, incluyendo conferencias en vivo, clases magistrales, tutoriales, y
+                    mucho más. También puedes crear tus propias listas de reproducción, para acceder fácilmente al
+                    contenido que deseas revisar.
+                </div>
+            </div>
+            <button class="boton position-relative top-0 start-50 translate-middle fw-bold" type="button">
                 <span><i class="fa-solid fa-play icon" style="color: #000000;"></i></span>
                 <span style="margin-left: 5px;">Comienza a Ver Ahora</span>
             </button>
+        </div>
+    </div>
+    <div class="container-c2">
+        <div class="content-c1">
+            <div class="text-break text-white fs-3 fw-bold titulo">Explora nuestra amplia gama de categorías disponibles
+            </div>
+            <div class="text-break text-white parrafo">Ya sea que busques un curso para divertirte, una conferencia para
+                reflexionar o un
+                recurso educativo para ampliar tus conocimientos</div>
+        </div>
+        <div class="content-c2-c2">
+            <div class="row g-3 text-center propa">
+                <div class="col">
+                    <div class="categorias">
+                        <div class="d1">
+                            <div class="container-image">
+                                <img class="image" src="Views/assets/img/curso python.jpeg" />
+                                <img class="image" src="Views/assets/img/curso java.jpeg" />
+                            </div>
+                            <div class="container-image">
+                                <img class="image" src="Views/assets/img/curso html.jpeg" />
+                                <img class="image" src="Views/assets/img/curso c++.jpeg" />
+                            </div>
+                        </div>
+                        <div class="d2">
+                            <div class="titulo">Programación</div>
+                            <div class="icon">
+                                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="categorias">
+                        <div class="d1">
+                            <div class="container-image">
+                                <img class="image" src="Views/assets/img/curso photoshop.jpeg" />
+                                <img class="image" src="Views/assets/img/curso canva.jpeg" />
+                            </div>
+                            <div class="container-image">
+                                <img class="image" src="Views/assets/img/curso pixlr.jpeg" />
+                                <img class="image" src="Views/assets/img/curso picmonkey.jpeg" />
+                            </div>
+                        </div>
+                        <div class="d2">
+                            <div class="titulo">Diseño</div>
+                            <div class="icon">
+                                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="categorias">
+                        <div class="d1">
+                            <div class="container-image">
+                                <img class="image" src="Views/assets/img/curso excel.jpeg" />
+                                <img class="image" src="Views/assets/img/curso calculo.jpeg" />
+                            </div>
+                            <div class="container-image">
+                                <img class="image" src="Views/assets/img/curso probabilidad.jpeg" />
+                                <img class="image" src="Views/assets/img/curso algebra.jpeg" />
+                            </div>
+                        </div>
+                        <div class="d2">
+                            <div class="titulo">Administracion</div>
+                            <div class="icon">
+                                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="categorias">
+                        <div class="d1">
+                            <div class="container-image">
+                                <img class="image" src="Views/assets/img/curso ingles.jpeg" />
+                                <img class="image" src="Views/assets/img/curso japon.jpeg" />
+                            </div>
+                            <div class="container-image">
+                                <img class="image" src="Views/assets/img/curso frances.jpeg" />
+                                <img class="image" src="Views/assets/img/curso coreano.jpeg" />
+                            </div>
+                        </div>
+                        <div class="d2">
+                            <div class="titulo">Idimas</div>
+                            <div class="icon">
+                                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="categorias">
+                        <div class="d1">
+                            <div class="container-image">
+                                <img class="image" src="Views/assets/img/curso Peligros biologicos.jpeg" />
+                                <img class="image"
+                                    src="Views/assets/img/curso perdida de audición.jpeg" />
+                            </div>
+                            <div class="container-image">
+                                <img class="image" src="Views/assets/img/curso estres.jpeg" />
+                                <img class="image" src="Views/assets/img/curso peligros eletricos.jpeg" />
+                            </div>
+                        </div>
+                        <div class="d2">
+                            <div class="titulo">Salud</div>
+                            <div class="icon">
+                                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
