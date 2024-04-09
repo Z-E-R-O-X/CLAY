@@ -327,6 +327,42 @@
             </div>
         </div>
     </div>
+    <div class="container-c5">
+        <div class="left-column">
+            <div class="faq-item">
+                <input type="checkbox" id="toggle1" class="toggle-checkbox">
+                <label for="toggle1" class="question"><span class="number-box">01</span> ¿Qué es AUNAR Academy Online? <span class="toggle-btn">+</span></label>
+                <div class="answer">
+                    AUNAR Academy Online es una plataforma de aprendizaje en línea que te permite acceder a una amplia variedad de cursos y materiales educativos según tu preferencia.
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="toggle2" class="toggle-checkbox">
+                <label for="toggle2" class="question"><span class="number-box">02</span> ¿Cuáles son los métodos de pago aceptados? <span class="toggle-btn">+</span></label>
+                <div class="answer">
+                Aceptamos tarjetas de crédito, PayPal y transferencias bancarias.
+                </div>
+            </div>
+            <!-- Agrega más items de FAQ aquí -->
+        </div>
+        <div class="right-column">
+      <div class="faq-item">
+        <input type="checkbox" id="toggle3" class="toggle-checkbox">
+        <label for="toggle3" class="question"><span class="number-box">03</span> ¿Cómo puedo contactar al servicio al cliente? <span class="toggle-btn">+</span></label>
+        <div class="answer">
+          Puedes contactarnos por teléfono al 123-456-789 o por correo electrónico a info@example.com.
+        </div>
+      </div>
+      <div class="faq-item">
+        <input type="checkbox" id="toggle4" class="toggle-checkbox">
+        <label for="toggle4" class="question"><span class="number-box">04</span> ¿Cuál es la política de devoluciones? <span class="toggle-btn">+</span></label>
+        <div class="answer">
+          Aceptamos devoluciones dentro de los 30 días posteriores a la compra, siempre que el producto esté en condiciones de ser vendido nuevamente.
+        </div>
+      </div>
+      <!-- Agrega más items de FAQ aquí -->
+        </div>
+    </div>
 </div>
 
 
