@@ -318,53 +318,182 @@
         </div>
         <div class="content-c2">
             <div class="row">
-                <div class="col-sm-9">
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="¿Tienes preguntas?">
-                </div>
-                <div class="col-sm-3 text-center">
-                <button type="button" class="boton fw-bold">Realiza una pregunta</button>
+                <div class="col d-flex flex-column align-items-end">
+                    <button type="button" class="boton fw-bold">Realiza una pregunta</button>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-c5">
-        <div class="left-column">
+        <div class="faq-column">
             <div class="faq-item">
                 <input type="checkbox" id="toggle1" class="toggle-checkbox">
-                <label for="toggle1" class="question"><span class="number-box">01</span> ¿Qué es AUNAR Academy Online? <span class="toggle-btn">+</span></label>
+                <label for="toggle1" class="question"><span class="number-box">01</span> ¿Qué es AUNAR Academy Online?
+                    <span class="toggle-btn">+</span></label>
                 <div class="answer">
-                    AUNAR Academy Online es una plataforma de aprendizaje en línea que te permite acceder a una amplia variedad de cursos y materiales educativos según tu preferencia.
+                    AUNAR Academy Online es una plataforma de aprendizaje en línea que te permite acceder a una amplia
+                    variedad de cursos y materiales educativos según tu preferencia.
                 </div>
             </div>
             <div class="faq-item">
                 <input type="checkbox" id="toggle2" class="toggle-checkbox">
-                <label for="toggle2" class="question"><span class="number-box">02</span> ¿Cuáles son los métodos de pago aceptados? <span class="toggle-btn">+</span></label>
+                <label for="toggle2" class="question"><span class="number-box">02</span> ¿Que precio tiene la membresia
+                    de AUNAR Academy Online <span class="toggle-btn">+</span></label>
                 <div class="answer">
-                Aceptamos tarjetas de crédito, PayPal y transferencias bancarias.
+                    Aceptamos tarjetas de crédito, PayPal y transferencias bancarias.
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="toggle3" class="toggle-checkbox">
+                <label for="toggle3" class="question"><span class="number-box">03</span> ¿Qué contenido se encuentra
+                    disponible en AUNAR Academy Online? <span class="toggle-btn">+</span></label>
+                <div class="answer">
+                    Puedes contactarnos por teléfono al 123-456-789 o por correo electrónico a info@example.com.
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="toggle4" class="toggle-checkbox">
+                <label for="toggle4" class="question"><span class="number-box">04</span> ¿Cómo puedo acceder a AUNAR
+                    Academy Online? <span class="toggle-btn">+</span></label>
+                <div class="answer">
+                    Puedes contactarnos por teléfono al 123-456-789 o por correo electrónico a info@example.com.
                 </div>
             </div>
             <!-- Agrega más items de FAQ aquí -->
         </div>
-        <div class="right-column">
-      <div class="faq-item">
-        <input type="checkbox" id="toggle3" class="toggle-checkbox">
-        <label for="toggle3" class="question"><span class="number-box">03</span> ¿Cómo puedo contactar al servicio al cliente? <span class="toggle-btn">+</span></label>
-        <div class="answer">
-          Puedes contactarnos por teléfono al 123-456-789 o por correo electrónico a info@example.com.
-        </div>
-      </div>
-      <div class="faq-item">
-        <input type="checkbox" id="toggle4" class="toggle-checkbox">
-        <label for="toggle4" class="question"><span class="number-box">04</span> ¿Cuál es la política de devoluciones? <span class="toggle-btn">+</span></label>
-        <div class="answer">
-          Aceptamos devoluciones dentro de los 30 días posteriores a la compra, siempre que el producto esté en condiciones de ser vendido nuevamente.
-        </div>
-      </div>
-      <!-- Agrega más items de FAQ aquí -->
+        <div class="faq-column">
+            <div class="faq-item">
+                <input type="checkbox" id="toggle5" class="toggle-checkbox">
+                <label for="toggle5" class="question"><span class="number-box">05</span> ¿Cómo me registro en AUNAR
+                    Academy Online? <span class="toggle-btn">+</span></label>
+                <div class="answer">
+                    Puedes contactarnos por teléfono al 123-456-789 o por correo electrónico a info@example.com.
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="toggle6" class="toggle-checkbox">
+                <label for="toggle6" class="question"><span class="number-box">06</span> ¿Como funciona la prueba
+                    gratuita de AUNAR Academy Online? <span class="toggle-btn">+</span></label>
+                <div class="answer">
+                    ceptamos devoluciones dentro de los 30 días posteriores a la compra, siempre que el producto esté en
+                    condiciones de ser vendido nuevamente.
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="toggle7" class="toggle-checkbox">
+                <label for="toggle7" class="question"><span class="number-box">07</span> ¿Cómo puedo ponerme en contacto
+                    con el soporte al cliente de AUNAR Academy Online? <span class="toggle-btn">+</span></label>
+                <div class="answer">
+                    Puedes contactarnos por teléfono al 123-456-789 o por correo electrónico a info@example.com.
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="toggle8" class="toggle-checkbox">
+                <label for="toggl8" class="question"><span class="number-box">08</span> ¿Cuáles son los métodos de pago
+                    de AUNAR Academy Online? <span class="toggle-btn">+</span></label>
+                <div class="answer">
+                    Puedes contactarnos por teléfono al 123-456-789 o por correo electrónico a info@example.com.
+                </div>
+            </div>
+            <!-- Agrega más items de FAQ aquí -->
         </div>
     </div>
+    <div class="container-c6">
+        <div class="row align-items-start">
+            <div class="col-sm-9">
+                <div class="content-c1">
+                    <div class="text-break text-white fs-3 fw-bold titulo">Elige el plan que se ajuste a tus
+                        necesidades
+                    </div>
+                    <div class="text-break text-white parrafo">Únete a AUNAR Academy Online y elige entre nuestras
+                        opciones de
+                        suscripción flexibles, diseñadas para adaptarse a tus preferencias de aprendizaje.
+                        ¡Prepárate para
+                        disfrutar de un aprendizaje continuo!
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container-c6-boton">
+                    <div class="btn-group nd" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-light" for="btnradio1">Mensual</label>
+                    </div>
+                    <div class="btn-group nd" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-light" for="btnradio2">Anual</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ItemsContainer text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="Card">
+                        <div class="TextContainer">
+                            <div class="Heading">Plan Básico</div>
+                            <div class="Paragraph">Disfruta de una amplia biblioteca de cursos y contenidos educativos,
+                                que incluyen una variedad de temas y títulos recién lanzados.</div>
+                        </div>
+                        <div class="TextContainer">
+                            <div class="Number">$9.99<span class="Text">/mes</span></div>
+                        </div>
+                        <div class="ButtonsContainer">
+                            <div class="Button">Comienza la prueba gratuita</div>
+                            <div class="Button-plan">Elige un Plan</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="Card">
+                        <div class="TextContainer">
+                            <div class="Heading">Plan Estandar</div>
+                            <div class="Paragraph">Accede a una selección más amplia de cursos y contenidos educativos,
+                                incluyendo la mayoría de los nuevos lanzamientos y contenido exclusivo.</div>
+                        </div>
+                        <div class="TextContainer">
+                            <div class="Number">$12.99<span class="Text">/mes</span></div>
+                        </div>
+                        <div class="ButtonsContainer">
+                            <div class="Button">Comienza la prueba gratuita</div>
+                            <div class="Button-plan">Elige un Plan</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="Card">
+                        <div class="TextContainer">
+                            <div class="Heading">Plan Premium</div>
+                            <div class="Paragraph">Accede a la más amplia selección de cursos y contenidos educativos,
+                                que incluyen todos los nuevos lanzamientos y la opción de ver sin conexión.</div>
+                        </div>
+                        <div class="TextContainer">
+                            <div class="Number">$14.99<span class="Text">/mes</span></div>
+                        </div>
+                        <div class="ButtonsContainer">
+                            <div class="Button">Comienza la prueba gratuita</div>
+                            <div class="Button-plan">Elige un Plan</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-c7">
+        <div class="row align-items-center">
+            <div class="col-sm-6">
+                <div class="TextLayer">
+                    <div class="Heading">¡Comienza tu prueba gratuita ahora mismo!</div>
+                    <div class="Paragraph">¡Regístrate hoy mismo para obtener una prueba gratuita de AUNAR Academy
+                        Online!</div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="ButtonLayer">
+                    <button class="Button-plan">Comienza una Prueba Gratuita</button>
+                </div>
+            </div>
+        </div>
+        <div class="image-collage" id="inferior"></div>
+    </div>
 </div>
-
-
-
-<script src="<?= SERVERURL ?>/Views/js/main.js"></script>

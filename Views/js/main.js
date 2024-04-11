@@ -48,9 +48,15 @@ var imagenes = [
     "Views/assets/img/curso sql server.jpeg",
 ];
 function obtenerImagenAleatoria() {
-    var indiceAleatorio = Math.floor(Math.random() * imagenes.length);
-    return imagenes.splice(indiceAleatorio, 1)[0];
+    if (imagenesCopia.length === 0) {
+        imagenesCopia = imagenes.slice();
+    }
+    var indiceAleatorio = Math.floor(Math.random() * imagenesCopia.length);
+    return imagenesCopia.splice(indiceAleatorio, 1)[0];
 }
+
+var imagenesCopia = imagenes.slice(); 
+
 function mostrarImagenesAleatorias(contenedorId) {
     var contenedor = document.getElementById(contenedorId);
     contenedor.innerHTML = ''; 
@@ -61,10 +67,25 @@ function mostrarImagenesAleatorias(contenedorId) {
         contenedor.appendChild(imagenElemento);
     }
 }
-window.onload = function() {
+//------------------------------------------------------------------------------------//
+function obtenerImagenAleatoria1() {
+    var indiceAleatorio1 = Math.floor(Math.random() * imagenes.length);
+    return imagenes[indiceAleatorio1];
+}
+
+function mostrarImagenesAleatorias1(contenedorId) {
+    var contenedor1 = document.getElementById(contenedorId);
+    contenedor1.innerHTML = '';
+
+    for (var index = 0; index < 72; index++) {
+        var imagenElemento1 = document.createElement('img');
+        imagenElemento1.src = "http://localhost/CLAY/" + obtenerImagenAleatoria1();
+        contenedor1.appendChild(imagenElemento1);
+    }
+}
+window.onload = function () {
     mostrarImagenesAleatorias('imagen-container1');
     mostrarImagenesAleatorias('imagen-container2');
     mostrarImagenesAleatorias('imagen-container3');
+    mostrarImagenesAleatorias1('inferior');
 };
-//------------------------------------------------------------------------------------//
-

@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="<?= SERVERURL ?>/Views/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
 
+<body>
     <nav class="navbar navbar-expand-lg fixed-top header">
         <div class="container-fluid container_header">
             <a class="navbar-brand" href="<?= SERVERURL ?>">
@@ -31,8 +33,9 @@
                 <div class="offcanvas-body">
                     <div class="navbar-nav me-auto mb-2 mb-lg-0 container_menu d-flex justify-content-center"
                         id="menu-container">
-                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')" >Inicio</button>
-                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Cursos y Diplomados</button>
+                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Inicio</button>
+                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Cursos y
+                            Diplomados</button>
                         <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Lives</button>
                         <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Mi lista</button>
                     </div>
@@ -53,18 +56,6 @@
             </div>
         </div>
     </nav>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="<?= SERVERURL ?>/Views/js/main.js"></script>
-
-<body>
-
-</body>
-
-<body>
     <?php
 
     require_once "./Controller/VistaControlador.php";
@@ -83,6 +74,10 @@
     }
 
     ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="<?= SERVERURL ?>/Views/js/main.js"></script>
 </body>
 
 </html>
