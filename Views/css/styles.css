@@ -489,22 +489,12 @@ body {
     
 }   
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-}
-body{
-    font-family: sans-serif;
-    text-transform: capitalize;
-}
 
 .footer{
     margin: 30px;
-}
-.footer .container{
-
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
 .footer-row{
     display: flex;
@@ -556,6 +546,7 @@ body{
         margin-bottom: 30px;
     }
 }
+
 .footer .linea{
     margin-top: 80px;
     border-top: 2px solid white;
