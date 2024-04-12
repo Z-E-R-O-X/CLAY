@@ -77,7 +77,7 @@ function mostrarImagenesAleatorias1(contenedorId) {
     var contenedor1 = document.getElementById(contenedorId);
     contenedor1.innerHTML = '';
 
-    for (var index = 0; index < 72; index++) {
+    for (var index = 0; index < 86; index++) {
         var imagenElemento1 = document.createElement('img');
         imagenElemento1.src = "http://localhost/CLAY/" + obtenerImagenAleatoria1();
         contenedor1.appendChild(imagenElemento1);
