@@ -499,12 +499,12 @@ body{
     font-family: sans-serif;
     text-transform: capitalize;
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 .footer{
-    padding: 80px 0;
+    margin: 30px;
+}
+.footer .container{
+
 }
 .footer-row{
     display: flex;
@@ -555,4 +555,14 @@ body{
         width: 100%;
         margin-bottom: 30px;
     }
+}
+.footer .linea{
+    margin-top: 80px;
+    border-top: 2px solid white;
+}
+.footer .bor{
+    border-right: 2px solid white;
+}
+.footer .linea .mar{
+    margin-top: 20px;
 }

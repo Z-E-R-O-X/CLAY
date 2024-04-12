@@ -31,8 +31,9 @@
                 <div class="offcanvas-body">
                     <div class="navbar-nav me-auto mb-2 mb-lg-0 container_menu d-flex justify-content-center"
                         id="menu-container">
-                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')" >Inicio</button>
-                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Cursos y Diplomados</button>
+                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Inicio</button>
+                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Cursos y
+                            Diplomados</button>
                         <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Lives</button>
                         <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Mi lista</button>
                     </div>
@@ -84,49 +85,63 @@
 
     ?>
     <footer class="footer">
-    <div class="container">
-        <div class="footer-row">
-            <div class="footer-links">
-                 <h4>Inicio</h4>
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Inicio</h4>
                     <li><a href="#">Categorias</a></li>
                     <li><a href="#">Dispositivos</a></li>
                     <li><a href="#">Tarifas</a></li>
                     <li><a href="#">FAQ</a></li>
-            </div>
-            <div class="footer-links">
-                 <h4>Cursos y Diplomados</h4>
+                </div>
+                <div class="footer-links">
+                    <h4>Cursos y Diplomados</h4>
                     <li><a href="#">Categorias</a></li>
                     <li><a href="#">Tendencia</a></li>
                     <li><a href="#">Nuevos Lanzamientos</a></li>
                     <li><a href="#">Populares</a></li>
-            </div>
-            <div class="footer-links">
-                 <h4>Lives</h4>
+                </div>
+                <div class="footer-links">
+                    <h4>Lives</h4>
                     <li><a href="#">Categorias</a></li>
                     <li><a href="#">Tendencia</a></li>
                     <li><a href="#">Iniciando</a></li>
                     <li><a href="#">Populares</a></li>
-            </div>
-            <div class="footer-links">
-                 <h4>Soporte</h4>
+                </div>
+                <div class="footer-links">
+                    <h4>Soporte</h4>
                     <li><a href="#">Contactanos</a></li>
-            </div>
-            <div class="footer-links">
-                 <h4>Inscripcion</h4>
+                </div>
+                <div class="footer-links">
+                    <h4>Inscripcion</h4>
                     <li><a href="#">Planes</a></li>
                     <li><a href="#">Caracteristicas</a></li>
+                </div>
+                <div class="footer-links">
+                    <h4>Conectate con nosotros</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="footer-links">
-                 <h4>Conectate con nosotros</h4>
-                 <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                 </div>
+            <div class="row linea">
+                <div class="col-md-7 mar">
+                    <p class="text-white">@2023 AUNAR Academy, Todos los Derechos Reservados</p>
+                </div>
+                <div class="col mar">
+                    <p class="text-white bor">Términos de Uso</p>
+                </div>
+                <div class="col mar">
+                    <p class="text-white bor">Política de Privacidad</p>
+                </div>
+                <div class="col mar">
+                    <p class="text-white">Política de Cookies</p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </body>
 
 
