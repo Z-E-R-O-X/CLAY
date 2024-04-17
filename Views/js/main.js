@@ -77,15 +77,32 @@ function mostrarImagenesAleatorias1(contenedorId) {
     var contenedor1 = document.getElementById(contenedorId);
     contenedor1.innerHTML = '';
 
-    for (var index = 0; index < 72; index++) {
+    for (var index = 0; index < 86; index++) {
         var imagenElemento1 = document.createElement('img');
         imagenElemento1.src = "http://localhost/CLAY/" + obtenerImagenAleatoria1();
         contenedor1.appendChild(imagenElemento1);
     }
 }
+
 window.onload = function () {
-    mostrarImagenesAleatorias('imagen-container1');
-    mostrarImagenesAleatorias('imagen-container2');
-    mostrarImagenesAleatorias('imagen-container3');
-    mostrarImagenesAleatorias1('inferior');
+    var contenedor1 = document.getElementById('imagen-container1');
+    if (contenedor1) {
+        mostrarImagenesAleatorias('imagen-container1');
+    }
+    var contenedor2 = document.getElementById('imagen-container2');
+    if (contenedor2) {
+        mostrarImagenesAleatorias('imagen-container2');
+    }
+    var contenedor3 = document.getElementById('imagen-container3');
+    if (contenedor3) {
+        mostrarImagenesAleatorias('imagen-container3');
+    }
+    var inferior = document.getElementById('inferior');
+    if (inferior) {
+        mostrarImagenesAleatorias1('inferior');
+    }
+    var inferior1 = document.getElementById('inferior1');
+    if (inferior1) {
+        mostrarImagenesAleatorias1('inferior1');
+    }
 };

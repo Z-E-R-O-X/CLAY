@@ -232,22 +232,19 @@ body {
 }
 
 .container-inicio .container-c1 {
-    position: relative;
-    top: -70px;
     width: 100%;
-    height: 253px;
+    height: 1%;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 40px;
     display: flex;
+    margin-bottom: -70px;
 }
 
 .container-inicio .container-c1 .content-c1 {
-    position: absolute;
-    top: -2%;
+    position: relative;
+    top: -85px;
     width: 100%;
-    height: 161px;
 }
 
 .container-inicio .container-c1 .content-c1 .con-tex {
@@ -762,7 +759,7 @@ body {
     height: 80px;
     align-self: stretch;
     border-radius: 12px;
-    transform: translateY(-200px);
+    transform: translateY(-300px);
     z-index: 0;
     margin: 0;
 }
@@ -810,4 +807,294 @@ body {
     z-index: 2;
     margin-right: 30px;
     margin-top: 10%;
+}
+.footer{
+    margin: 30px;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.containerxt{
+    margin: 30px;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-links{
+    width: 16.5%;
+    padding: 0 15px;
+}
+.footer-links h4{
+    font-size: 20px;
+    color:#ffffff;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.footer-links li a {
+    font-size: 15px;
+    text-decoration:none;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+.footer-links li a:hover{
+    color: #ffffff;
+    padding-left: 6px;
+}
+.social-links a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(6, 5, 5, 0.991);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+.social-links a:hover{
+    background-color: #00C3FF;
+}
+@media(max-width:991px){
+    .footer-row{
+        text-align: center;
+    }
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+.footer .linea{
+    margin-top: 80px;
+    border-top: 2px solid white;
+}
+.footer .bor{
+    border-right: 2px solid white;
+}
+.footer .linea .mar{
+    margin-top: 20px;
+}
+
+/* ///////////////////////LOGIN/////////////////////////////*/
+.container-login {
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.containerc1-login {
+    width: 100%;
+}
+
+.TextLayer-login {
+    color: white;
+    justify-content: left;
+    text-align: left;
+    margin-top: 10%;
+}
+
+.TextLayer-login2 {
+    color: white;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.TextLayer-login .Heading-login {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.TextLayer-login .Heading-login2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.TextLayer-login .Paragraph-login {
+    font-size: 16px;
+}
+
+.container-imagecollage-login {
+    margin-top: 20px;
+    width: 100%;
+    height: 330px;
+    border: 5px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-collage-login {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+    margin-left: -10px;
+    margin-right: -150px;
+}
+
+.image-collage-login img {
+    width: 108px;
+    height: 80px;
+    align-self: stretch;
+    border-radius: 12px;
+}
+
+.container-login-der {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+.login-title {
+    text-align: center;
+    /* Título centrado */
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container-left,
+.container-right {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.login-title {
+    text-align: center;
+    /* Título centrado */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Espaciado entre grupos */
+}
+
+.form-label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--White);
+}
+
+.custom-select {
+    width: 15%;
+    float: left;
+    margin-right: 5%;
+    background-color: transparent;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.custom-select#pais option {
+    width: 14%;
+    background-color: var(--Midnight-Blue);
+    border: 2px solid black;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--Black);
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--White);
+}
+
+.recuperar-contraseña-login {
+    color: var(--White);
+    cursor: pointer;
+}
+
+.Button-login {
+    padding: 14px 20px;
+    background: var(--Goldenrod);
+    border-radius: 6px;
+    border: 1px white solid;
+    color: var(--Black);
+    font-weight: 600;
+    line-height: 21px;
+    margin-right: 30px;
+}
+
+.login-Paragraph {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--White);
+}
+
+.contenedor-redsocial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contenedor-redsocial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.contenedor-redsocial span {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.Button-register {
+    margin-top: 10px;
+    padding: 14px 20px;
+    background: var(--Goldenrod);
+    border-radius: 6px;
+    border: 1px white solid;
+    color: var(--Black);
+    font-weight: 600;
+    line-height: 21px;
+    word-wrap: break-word;
+    margin-right: 30px;
+}
+
+.container-imagecollage-register {
+    margin-top: 20px;
+    width: 100%;
+    height: 520px;
+    border: 5px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-collage-register {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+    margin-left: -10px;
+    margin-right: -150px;
+}
+
+.image-collage-register img {
+    width: 108px;
+    height: 80px;
+    align-self: stretch;
+    border-radius: 12px;
 }

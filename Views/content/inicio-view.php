@@ -481,7 +481,7 @@
     </div>
     <div class="container-c7">
         <div class="row align-items-center">
-            <div class="col-sm-6">
+            <div class="col-sm-6 md-6">
                 <div class="TextLayer">
                     <div class="Heading">¡Comienza tu prueba gratuita ahora mismo!</div>
                     <div class="Paragraph">¡Regístrate hoy mismo para obtener una prueba gratuita de AUNAR Academy
