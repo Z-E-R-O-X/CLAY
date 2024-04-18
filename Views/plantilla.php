@@ -33,7 +33,7 @@
                 <div class="offcanvas-body">
                     <div class="navbar-nav me-auto mb-2 mb-lg-0 container_menu d-flex justify-content-center"
                         id="menu-container">
-                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Inicio</button>
+                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>inicio/')">Inicio</button>
                         <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Cursos y
                             Diplomados</button>
                         <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Lives</button>

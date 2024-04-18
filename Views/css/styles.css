@@ -776,7 +776,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0),rgba(0, 0, 0, 0.834), rgba(0, 153, 255, 0.5), rgba(0, 153, 255, 0.5), rgba(255, 255, 0, 0.5));
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0.834), rgba(0, 153, 255, 0.5), rgba(0, 153, 255, 0.5), rgba(255, 255, 0, 0.5));
     z-index: 1;
 }
 
@@ -813,42 +813,50 @@ body {
     margin-right: 30px;
     margin-top: 10%;
 }
-.footer{
+
+.footer {
     margin: 30px;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
 }
-.containerxt{
+
+.containerxt {
     margin: 30px;
 }
-.footer-row{
+
+.footer-row {
     display: flex;
     flex-wrap: wrap;
 }
-.footer-links{
+
+.footer-links {
     width: 16.5%;
     padding: 0 15px;
 }
-.footer-links h4{
+
+.footer-links h4 {
     font-size: 20px;
-    color:#ffffff;
+    color: #ffffff;
     margin-bottom: 20px;
     font-weight: 500;
 }
+
 .footer-links li a {
     font-size: 15px;
-    text-decoration:none;
+    text-decoration: none;
     color: #ffffff;
     display: block;
     margin-bottom: 15px;
     transition: all .3s ease;
 }
-.footer-links li a:hover{
+
+.footer-links li a:hover {
     color: #ffffff;
     padding-left: 6px;
 }
-.social-links a{
+
+.social-links a {
     display: inline-block;
     min-height: 40px;
     width: 40px;
@@ -860,27 +868,32 @@ body {
     color: #ffffff;
     transition: all .5s ease;
 }
-.social-links a:hover{
+
+.social-links a:hover {
     background-color: #00C3FF;
 }
-@media(max-width:991px){
-    .footer-row{
+
+@media(max-width:991px) {
+    .footer-row {
         text-align: center;
     }
-    .footer-links{
+
+    .footer-links {
         width: 100%;
         margin-bottom: 30px;
     }
 }
 
-.footer .linea{
+.footer .linea {
     margin-top: 80px;
     border-top: 2px solid white;
 }
-.footer .bor{
+
+.footer .bor {
     border-right: 2px solid white;
 }
-.footer .linea .mar{
+
+.footer .linea .mar {
     margin-top: 20px;
 }
 
@@ -1103,3 +1116,137 @@ body {
     align-self: stretch;
     border-radius: 12px;
 }
+
+.perfil {
+    width: 100%;
+}
+
+.perfil .container-c1 {
+    padding: 15px;
+    margin-top: 120px;
+}
+.perfil .container-c1 .parte-1 {
+    color: var(--White);
+}
+.perfil .container-c1 .parte-1 .mensaje{
+    margin-top: 10px;
+    padding: 10px;
+    background: var(--Goldenrod);
+    border-radius: 6px;
+    border: 1px white solid;
+    color: var(--Black);
+    font-weight: 600;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+.perfil .container-c1 .parte-1-1 {
+    color: var(--White);
+    margin-top: 15px;
+}
+.perfil .container-c1 .parte-1-1 small{
+    cursor: pointer;
+}
+.perfil .container-c1 .parte-2 {
+    background-color: var(--Black);
+}
+.perfil .container-c1 .parte-2 .editar{
+cursor: pointer;
+}
+.perfil .container-c1 .parte-2 h6{
+    color: var(--White);
+}
+.perfil .container-c1 .parte-2 h6 span i{
+    margin-right: 10px;
+}
+
+.perfil .container-c1 .parte-2 .list-group {
+    background-color: transparent;
+}
+
+.perfil .container-c1 .parte-2 .list-group-item {
+    background-color: transparent;
+}
+.perfil .container-c1 .parte-3 .t1{
+    color: var(--Slate-Gray);
+}
+.perfil .container-c1 .parte-3 .r1{
+    color: var(--White);
+}
+.perfil .container-c1 .parte-4 h1{
+    color: var(--White);
+}
+.perfil .container-c1 .parte-4 h1 i{
+    color: var(--Goldenrod);
+}
+.perfil .container-c1 .parte-4 h6{
+    color: var(--White);
+}
+.perfil .container-c1 .parte-5 .curso{
+    color: var(--Black);
+    background-color: var(--Midnight-Blue);
+    border-radius: 5px;
+    margin: 15px;
+    border: 2px solid black;
+}
+
+.perfil .container-c1 .parte-5 .card-header{
+    color: var(--White);
+    font-size: 30px;
+    font: bold;
+}
+.perfil .container-c1 .parte-5 .curso img{
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.perfil .container-c1 .parte-5 .curso a{
+    margin-bottom: 5px;
+}
+.perfil .container-c1 .parte-5 .curso .estado {
+    margin-left: 10%;
+}
+.perfil .container-c1 .parte-5 .curso .card-title {
+    margin-top: 2%;
+}
+.perfil .container-c1 .parte-5 .curbtn {
+    margin-top: 10px;
+    padding: 10px;
+    background: var(--Goldenrod);
+    border-radius: 6px;
+    border: 1px white solid;
+    color: var(--Black);
+    font-weight: 600;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+
+
+.perfil .container-c1 .parte-3 .editar{
+    margin-top: 10px;
+    padding: 10px;
+    background: var(--Goldenrod);
+    border-radius: 6px;
+    border: 1px white solid;
+    color: var(--Black);
+    font-weight: 600;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+.perfil .container-c1 .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: var(--Midnight-Blue);
+    background-clip: border-box;
+    border: 2px solid black;
+    border-radius: .25rem;
+}
+
+.perfil .container-c1 .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+

@@ -31,7 +31,7 @@
           </div>
           <div class="row">
             <div class="col"><a class="recuperar-contraseña-login">Recuperar Contraseña</a></div>
-            <div class="col text-end"><button class="Button-login">Log in</button></div>
+            <div class="col text-end"><button class="Button-login" onclick="button_login('<?= SERVERURL ?>perfil/')">Log in</button></div>
           </div>
           <h2 class="login-Paragraph">Inicia con: </h2>
           <div class="row">
