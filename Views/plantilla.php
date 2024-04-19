@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top header">
+    <nav class="navbar navbar-expand-lg header">
         <div class="container-fluid container_header">
             <a class="navbar-brand" href="<?= SERVERURL ?>">
                 <img src="<?= SERVERURL ?>/Views/assets/img/logo2.png" alt="Logo" width="80" height="74"
@@ -33,7 +33,7 @@
                 <div class="offcanvas-body">
                     <div class="navbar-nav me-auto mb-2 mb-lg-0 container_menu d-flex justify-content-center"
                         id="menu-container">
-                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Inicio</button>
+                        <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>inicio/')">Inicio</button>
                         <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Cursos y
                             Diplomados</button>
                         <button class="iten_menu dk" onclick="button_login('<?= SERVERURL ?>login/')">Lives</button>
