@@ -1118,6 +1118,34 @@ body {
     align-self: stretch;
     border-radius: 12px;
 }
+.container-RecuContra {
+    max-width: 400px;
+    margin: 150px auto;
+    justify-content: center;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+  }
+  
+  .button-recuperar {
+    padding: 10px 20px;
+    background-color:yellow;
+    color:#000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 .perfil {
     width: 100%;
 }
