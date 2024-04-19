@@ -98,12 +98,12 @@
                     <div class="categorias">
                         <div class="d1">
                             <div class="container-image">
-                                <img class="image" src="Views/assets/img/curso python.jpeg" />
-                                <img class="image" src="Views/assets/img/curso java.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso python.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso java.jpeg" />
                             </div>
                             <div class="container-image">
-                                <img class="image" src="Views/assets/img/curso html.jpeg" />
-                                <img class="image" src="Views/assets/img/curso c++.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso html.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso c++.jpeg" />
                             </div>
                         </div>
                         <div class="d2">
@@ -118,12 +118,12 @@
                     <div class="categorias">
                         <div class="d1">
                             <div class="container-image">
-                                <img class="image" src="Views/assets/img/curso photoshop.jpeg" />
-                                <img class="image" src="Views/assets/img/curso canva.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso photoshop.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso canva.jpeg" />
                             </div>
                             <div class="container-image">
-                                <img class="image" src="Views/assets/img/curso pixlr.jpeg" />
-                                <img class="image" src="Views/assets/img/curso picmonkey.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso pixlr.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso picmonkey.jpeg" />
                             </div>
                         </div>
                         <div class="d2">
@@ -138,12 +138,12 @@
                     <div class="categorias">
                         <div class="d1">
                             <div class="container-image">
-                                <img class="image" src="Views/assets/img/curso excel.jpeg" />
-                                <img class="image" src="Views/assets/img/curso calculo.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso excel.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso calculo.jpeg" />
                             </div>
                             <div class="container-image">
-                                <img class="image" src="Views/assets/img/curso probabilidad.jpeg" />
-                                <img class="image" src="Views/assets/img/curso algebra.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso probabilidad.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso algebra.jpeg" />
                             </div>
                         </div>
                         <div class="d2">
@@ -158,12 +158,12 @@
                     <div class="categorias">
                         <div class="d1">
                             <div class="container-image">
-                                <img class="image" src="Views/assets/img/curso ingles.jpeg" />
-                                <img class="image" src="Views/assets/img/curso japon.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso ingles.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso japon.jpeg" />
                             </div>
                             <div class="container-image">
-                                <img class="image" src="Views/assets/img/curso frances.jpeg" />
-                                <img class="image" src="Views/assets/img/curso coreano.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso frances.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso coreano.jpeg" />
                             </div>
                         </div>
                         <div class="d2">
@@ -178,12 +178,12 @@
                     <div class="categorias">
                         <div class="d1">
                             <div class="container-image">
-                                <img class="image" src="Views/assets/img/curso Peligros biologicos.jpeg" />
-                                <img class="image" src="Views/assets/img/curso perdida de audición.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso Peligros biologicos.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso perdida de audición.jpeg" />
                             </div>
                             <div class="container-image">
-                                <img class="image" src="Views/assets/img/curso estres.jpeg" />
-                                <img class="image" src="Views/assets/img/curso peligros eletricos.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso estres.jpeg" />
+                                <img class="image" src="<?= SERVERURL ?>Views/assets/img/curso peligros eletricos.jpeg" />
                             </div>
                         </div>
                         <div class="d2">
