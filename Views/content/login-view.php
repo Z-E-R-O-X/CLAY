@@ -30,7 +30,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col"><a class="recuperar-contraseña-login">Recuperar Contraseña</a></div>
+          <div class="col"><a href="<?= SERVERURL ?>recuperaclave/" class="recuperar-contraseña-login">Recuperar Contraseña</a></div>
             <div class="col text-end"><button class="Button-login">Log in</button></div>
           </div>
           <h2 class="login-Paragraph">Inicia con: </h2>
