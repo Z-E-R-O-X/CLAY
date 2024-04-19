@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top header">
+    <nav class="navbar navbar-expand-lg header">
         <div class="container-fluid container_header">
             <a class="navbar-brand" href="<?= SERVERURL ?>">
                 <img src="<?= SERVERURL ?>/Views/assets/img/logo2.png" alt="Logo" width="80" height="74"

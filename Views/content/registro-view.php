@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="<?= SERVERURL ?>/Views/css/styles.css">
 <div class="container-login">
     <div class="containerc1-login">
         <div class="row">

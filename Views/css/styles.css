@@ -23,7 +23,8 @@ body {
 }
 
 .header {
-    background-color: transparent;
+    background-color: transparent !important;
+    z-index: 3;
 }
 
 .container_header {
@@ -138,6 +139,8 @@ body {
 }
 
 .container-inicio {
+    position: relative;
+    top: -130px;
     width: 100%;
 }
 
@@ -899,7 +902,6 @@ body {
 
 /* ///////////////////////LOGIN/////////////////////////////*/
 .container-login {
-    margin-top: 100px;
     margin-left: 30px;
     margin-right: 30px;
 
@@ -1116,14 +1118,11 @@ body {
     align-self: stretch;
     border-radius: 12px;
 }
-
 .perfil {
     width: 100%;
 }
-
 .perfil .container-c1 {
     padding: 15px;
-    margin-top: 120px;
 }
 .perfil .container-c1 .parte-1 {
     color: var(--White);
@@ -1182,10 +1181,13 @@ cursor: pointer;
     color: var(--White);
 }
 .perfil .container-c1 .parte-5 .curso{
-    color: var(--Black);
+    color: var(--White);
     background-color: var(--Midnight-Blue);
     border-radius: 5px;
     margin: 15px;
+    border: 2px solid black;
+}
+.perfil .container-c1 .parte-5 .curso img{
     border: 2px solid black;
 }
 
