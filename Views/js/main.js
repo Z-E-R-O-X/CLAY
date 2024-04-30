@@ -25,27 +25,27 @@ document.addEventListener('DOMContentLoaded', manejarInputBuscar);
 //------------------------------------------------------------------------------------//
 
 var imagenes = [
-    "Views/assets/img/curso algebra.jpeg",
-    "Views/assets/img/curso c++.jpeg",
-    "Views/assets/img/curso calculo.jpeg",
-    "Views/assets/img/curso canva.jpeg",
-    "Views/assets/img/curso coreano.jpeg",
-    "Views/assets/img/curso estres.jpeg",
-    "Views/assets/img/curso excel.jpeg",
-    "Views/assets/img/curso frances.jpeg",
-    "Views/assets/img/curso html.jpeg",
-    "Views/assets/img/curso ingles.jpeg",
-    "Views/assets/img/curso japon.jpeg",
-    "Views/assets/img/curso java.jpeg",
-    "Views/assets/img/curso perdida de audición.jpeg",
-    "Views/assets/img/curso peligros biologicos.jpeg",
-    "Views/assets/img/curso peligros eletricos.jpeg",
-    "Views/assets/img/curso photoshop.jpeg",
-    "Views/assets/img/curso picmonkey.jpeg",
-    "Views/assets/img/curso pixlr.jpeg",
-    "Views/assets/img/curso probabilidad.jpeg",
-    "Views/assets/img/curso python.jpeg",
-    "Views/assets/img/curso sql server.jpeg",
+    "../assets/img/curso algebra.jpeg",
+    "../assets/img/curso c++.jpeg",
+    "../assets/img/curso calculo.jpeg",
+    "../assets/img/curso canva.jpeg",
+    "../assets/img/curso coreano.jpeg",
+    "../assets/img/curso estres.jpeg",
+    "../assets/img/curso excel.jpeg",
+    "../assets/img/curso frances.jpeg",
+    "../assets/img/curso html.jpeg",
+    "../assets/img/curso ingles.jpeg",
+    "../assets/img/curso japon.jpeg",
+    "../assets/img/curso java.jpeg",
+    "../assets/img/curso perdida de audición.jpeg",
+    "../assets/img/curso peligros biologicos.jpeg",
+    "../assets/img/curso peligros eletricos.jpeg",
+    "../assets/img/curso photoshop.jpeg",
+    "../assets/img/curso picmonkey.jpeg",
+    "../assets/img/curso pixlr.jpeg",
+    "../assets/img/curso probabilidad.jpeg",
+    "../assets/img/curso python.jpeg",
+    "../assets/img/curso sql server.jpeg",
 ];
 function obtenerImagenAleatoria() {
     if (imagenesCopia.length === 0) {
@@ -63,7 +63,7 @@ function mostrarImagenesAleatorias(contenedorId) {
 
     for (var index = 0; index < 7; index++) {
         var imagenElemento = document.createElement('img');
-        imagenElemento.src = "http://localhost/CLAY/" + obtenerImagenAleatoria();
+        imagenElemento.src = obtenerImagenAleatoria();
         contenedor.appendChild(imagenElemento);
     }
 }
@@ -79,7 +79,7 @@ function mostrarImagenesAleatorias1(contenedorId) {
 
     for (var index = 0; index < 86; index++) {
         var imagenElemento1 = document.createElement('img');
-        imagenElemento1.src = "http://localhost/CLAY/" + obtenerImagenAleatoria1();
+        imagenElemento1.src = obtenerImagenAleatoria1();
         contenedor1.appendChild(imagenElemento1);
     }
 }
