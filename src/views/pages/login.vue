@@ -1,9 +1,5 @@
 <template>
-  <header>
-    <div>
-      <Header />
-    </div>
-  </header>
+  <Header />
   <div class="container-login">
     <div class="containerc1-login">
       <div class="row">
@@ -27,43 +23,30 @@
               <div class="col container-left">
                 <div class="form-group">
                   <label for="email" class="form-label">Email</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    class="form-input"
-                    required
-                    placeholder="Ingrese su correo"
-                  />
+                  <input type="email" id="email" name="email" class="form-input" required
+                    placeholder="Ingrese su correo" />
                 </div>
               </div>
               <div class="col container-right">
                 <div class="form-group">
                   <label for="password" class="form-label">Contraseña</label>
-                  <input
-                    type="password"
-                    id="password"
-                    name="password"
-                    class="form-input"
-                    required
-                    placeholder="contraseña"
-                  />
+                  <input type="password" id="password" name="password" class="form-input" required
+                    placeholder="contraseña" />
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <a href="recuperaclave.html" class="recuperar-contraseña-login"
-                  >Recuperar Contraseña</a
-                >
+                <router-link  to="/recuperarclave"> 
+                  <a class="recuperar-contraseña-login">Recuperar Contraseña</a>
+                </router-link>
               </div>
               <div class="col text-end">
-                <button
-                  class="Button-login"
-                  onclick="button_login('perfil.html')"
-                >
+                <router-link  to="/perfil"> 
+                  <button class="Button-login">
                   Log in
                 </button>
+                </router-link>
               </div>
             </div>
             <h2 class="login-Paragraph">Inicia con:</h2>
@@ -73,8 +56,7 @@
                   <div class="contenedor-redsocial mb-4">
                     <img
                       src="https://w7.pngwing.com/pngs/326/85/png-transparent-google-logo-google-text-trademark-logo.png"
-                      alt="Nombre de la red social"
-                    />
+                      alt="Nombre de la red social" />
                     <span>Google</span>
                   </div>
                 </div>
@@ -82,24 +64,23 @@
                   <div class="contenedor-redsocial mb-4">
                     <img
                       src="https://static.vecteezy.com/system/resources/previews/023/986/613/non_2x/facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png.png"
-                      alt="Nombre de la red social"
-                    />
+                      alt="Nombre de la red social" />
                     <span>Facebook</span>
                   </div>
                 </div>
                 <div class="col">
                   <div class="contenedor-redsocial mb-4">
-                    <img
-                      src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"
-                      alt="Nombre de la red social"
-                    />
+                    <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"
+                      alt="Nombre de la red social" />
                     <span>Apple</span>
                   </div>
                 </div>
               </div>
-              <div class="col d-flex">
-                <a href="registro.html" class="Button-register">Regístrate</a>
+              <router-link  to="/registro">
+                <div class="col d-flex">
+                <a class="Button-register">Regístrate</a>
               </div>
+              </router-link>
             </div>
           </div>
         </div>
@@ -127,11 +108,7 @@
       </div>
     </div>
   </div>
-  <footer>
-    <div>
-      <Footer />
-    </div>
-  </footer>
+  <Footer />
 </template>
 <script>
 import Footer from '@/components/Footer.vue';

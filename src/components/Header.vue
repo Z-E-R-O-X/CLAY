@@ -2,7 +2,8 @@
   <header>
     <nav class="navbar navbar-expand-lg header">
       <div class="container-fluid container_header">
-        <a class="navbar-brand" href="index.html">
+        <router-link to="/">
+          <a class="navbar-brand" href="index.html">
           <img
             src="frontend/assets/img/logo2.png"
             alt="Logo"
@@ -11,6 +12,7 @@
             class="d-inline-block align-text-top"
           />
         </a>
+        </router-link>
         <button
           class="navbar-toggler"
           type="button"
@@ -42,15 +44,9 @@
               id="menu-container"
             >
               <router-link class="iten_menu dk" to="/">Inicio</router-link>
-              <button class="iten_menu dk" onclick="button_login('index.html')">
-                Cursos y Diplomados
-              </button>
-              <button class="iten_menu dk" onclick="button_login('index.html')">
-                Lives
-              </button>
-              <button class="iten_menu dk" onclick="button_login('index.html')">
-                Mi lista
-              </button>
+              <router-link class="iten_menu dk" to="/">Cursos y Diplomados</router-link>
+              <router-link class="iten_menu dk" to="/">Lives</router-link>
+              <router-link class="iten_menu dk" to="/"> Mi lista</router-link>
             </div>
 
             <div class="container_bus_lon d-flex justify-content-between">

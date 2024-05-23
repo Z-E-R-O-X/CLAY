@@ -1,71 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        CLAY
-    </title>
-    <script src="https://kit.fontawesome.com/9b2b8e0f24.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/Views/css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-
-<dody>
-
-    <nav class="navbar navbar-expand-lg header">
-        <div class="container-fluid container_header">
-            <a class="navbar-brand" href="index.html">
-                <img src="../assets/img/logo2.png" alt="Logo" width="80" height="74"
-                    class="d-inline-block align-text-top">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end ocultar" tabindex="-1" id="navbarSupportedContent">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title">Menu</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div class="navbar-nav me-auto mb-2 mb-lg-0 container_menu d-flex justify-content-center"
-                        id="menu-container">
-                        <button class="iten_menu dk" onclick="button_login('index.html')">Inicio</button>
-                        <button class="iten_menu dk" onclick="button_login('index.html')">Cursos y
-                            Diplomados</button>
-                        <button class="iten_menu dk" onclick="button_login('index.html')">Lives</button>
-                        <button class="iten_menu dk" onclick="button_login('index.html')">Mi lista</button>
-                    </div>
-
-                    <div class="container_bus_lon d-flex justify-content-between">
-                        <form class="container_buscador input-group flex-nowrap" role="search">
-                            <input id="inputBuscar" class="form-control" type="search" placeholder="Buscar"
-                                aria-label="Buscar" aria-describedby="addon-wrapping" style="display: none;">
-                            <span id="iconoBuscar" class="input-group-text"><i
-                                    class="fa-solid fa-magnifying-glass icon icon1" style="color: #FFFFFF;"></i></span>
-                        </form>
-                        <div class="login-container m2">
-                            <button class="login-button" onclick="button_login('login.html')">Login</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <div class="perfil">
+<template>
+       <Header />
+           <div class="perfil">
         <div class="container-c1">
             <div class="row gutters-sm">
                 <div class="col-md-4 mb-3">
                     <div class="card parte-1">
                         <div class="card-body">
                             <div class="d-flex flex-column align-items-center text-center">
-                                <img src="../assets/img/perfil.jpg" class="rounded-circle" width="200"
+                                <img src="frontend/assets/img/perfil.jpg" class="rounded-circle" width="200"
                                     style="border: 2px solid black;">
                                 <span class="badge bg-white rounded-circle">
                                     <i class="fa-solid fa-pencil" style="color: #FFD43B;"></i>
@@ -193,7 +135,7 @@
                         <div class="row text-center">
                             <div class="col d-flex flex-wrap">
                                 <div class="curso c1 mb-3 me-3 flex-fill">
-                                    <img src="../assets/img/curso python.jpeg" class="text-center"
+                                    <img src="frontend/assets/img/curso python.jpeg" class="text-center"
                                         style="width: 180px; height: 180px;">
                                     <h5 class="card-title">Python</h5>
                                     <p class="card-text">332 Alumnos inscritos</p>
@@ -204,7 +146,7 @@
                                     <a href="#" class="btn curbtn">Continuar</a>
                                 </div>
                                 <div class="curso mb-3 me-3 flex-fill">
-                                    <img src="../assets/img/curso java.jpeg" class="text-center"
+                                    <img src="frontend/assets/img/curso java.jpeg" class="text-center"
                                         style="width: 180px; height: 180px;">
                                     <h5 class="card-title">Java</h5>
                                     <p class="card-text">251 Alumnos inscritos</p>
@@ -215,7 +157,7 @@
                                     <a href="#" class="btn curbtn">Continuar</a>
                                 </div>
                                 <div class="curso mb-3 me-3 flex-fill">
-                                    <img src="../assets/img/curso html.jpeg" class="text-center"
+                                    <img src="frontend/assets/img/curso html.jpeg" class="text-center"
                                         style="width: 180px; height: 180px;">
                                     <h5 class="card-title">HTML</h5>
                                     <p class="card-text">543 Alumnos inscritos</p>
@@ -232,69 +174,14 @@
             </div>
         </div>
     </div>
+    <Footer />
+</template>
 
-    <footer class="footer">
-        <div class="containerxt">
-            <div class="row footer-row">
-                <div class="col footer-links">
-                    <h4>Inicio</h4>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Dispositivos</a></li>
-                    <li><a href="#">Tarifas</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </div>
-                <div class="col footer-links">
-                    <h4>Cursos y Diplomados</h4>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Tendencia</a></li>
-                    <li><a href="#">Nuevos Lanzamientos</a></li>
-                    <li><a href="#">Populares</a></li>
-                </div>
-                <div class="col footer-links">
-                    <h4>Lives</h4>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Tendencia</a></li>
-                    <li><a href="#">Iniciando</a></li>
-                    <li><a href="#">Populares</a></li>
-                </div>
-                <div class="col footer-links">
-                    <h4>Soporte</h4>
-                    <li><a href="#">Contactanos</a></li>
-                </div>
-                <div class="col footer-links">
-                    <h4>Inscripcion</h4>
-                    <li><a href="#">Planes</a></li>
-                    <li><a href="#">Caracteristicas</a></li>
-                </div>
-                <div class="col footer-links">
-                    <h4>Conectate con nosotros</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row linea">
-                <div class="col-md-7 mar">
-                    <p class="text-white">@2023 AUNAR Academy, Todos los Derechos Reservados</p>
-                </div>
-                <div class="col mar">
-                    <p class="text-white bor">Términos de Uso</p>
-                </div>
-                <div class="col mar">
-                    <p class="text-white bor">Política de Privacidad</p>
-                </div>
-                <div class="col mar">
-                    <p class="text-white">Política de Cookies</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="/Views/js/main.js"></script>
-
-</dody>
+<script>
+import Footer from '@/components/Footer.vue';
+import Header from '@/components/Header.vue';
+export default {
+  components: { Header, Footer },
+  name: 'perfil',
+};
+</script>
